@@ -1,0 +1,337 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>LuxEvents/Events</title>
+	<style>
+      #map {
+        width: 100%;
+        height: 600px;
+        background-color: skyblue;
+		map-align:center
+      }
+    </style>
+	<link href="maps.css" rel="stylesheet">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+    <title>Google Maps Multiple Markers</title> 
+    <script src="http://maps.google.com/maps/api/js?sensor=false" 
+          type="text/javascript"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Coffee Break Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery.min.js"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!--start-smoth-scrolling-->
+	<!--script-->
+	<script src="js/modernizr.custom.97074.js"></script>
+<script src="js/jquery.chocolat.js"></script>
+		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+		<!--light-box-files -->
+		<script type="text/javascript" charset="utf-8">
+		$(function() {
+			$('.gallery a').Chocolat();
+		});
+		</script>
+		<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+</head>
+<body>
+	<!--header-top-starts-->
+	<div class="header-top">
+		<div class="container">
+			<div class="head-main">
+				<a href="index.html"><h1 style="font-family:fantasy;font-size:150px;">LuxEvents</h1></a>
+			</div>
+		</div>
+	</div>
+	<!--header-top-end-->
+	<!--start-header-->
+	<div class="header">
+		<div class="container">
+			<div class="head">
+			<div class="navigation">
+				 <span class="menu"></span> 
+					<ul class="navig">
+						<li><a href="index.html" style="font-family:fantasy;font-size:30px;color:black">Home</a></li>
+						<li><a href="about.html" style="font-family:fantasy;font-size:30px;color:black" >About</a></li>
+						<li><a href="events.html"  class="active" style="font-family:fantasy;font-size:30px;color:black">Events</a></li>
+						<li><a href="volunteering.html" style="font-family:fantasy;font-size:30px;color:black">Volunteer Work</a></li>
+						<li><a href="contact.html" style="font-family:fantasy;font-size:30px;color:black">Contact</a></li>
+					</ul>
+			</div>
+			<div class="header-right">
+				<div class="search-bar">
+					<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+					<input type="submit" value="">
+				</div>
+				<ul>
+					<li><a href="https://www.facebook.com/LuxEvents-1793803767502126/span"><span class="fb"> </span></a></li>
+					<li><a href="https://twitter.com/luxevents_ny"><span class="twit"> </span></a></li>
+				</ul>
+			</div>
+				<div class="clearfix"></div>
+			</div>
+			</div>
+		</div>	
+	<!-- script-for-menu -->
+	<!-- script-for-menu -->
+		<script>
+			$("span.menu").click(function(){
+				$(" ul.navig").slideToggle("slow" , function(){
+				});
+			});
+		</script>
+	<!-- script-for-menu -->	
+	<!--gallery-starts-->
+	<h5 style =text-align:center><a href = "links.html"> Click Here if you want to see the links to the events.</h5>
+	<div class="gallery">
+		<div class="container">
+			<div class="gallery-top heading">
+				<h3>Events</h3>
+			</div>
+			<section>
+				<ul id="da-thumbs" class="da-thumbs">
+				
+					<li>
+						<a href="images/highline.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img height="300px" width="200px" src="images/highline.jpg" alt="" />
+							<h2 style = "font-size:15px;text-align:center;color:black">Go to the Highline in Manhattan for FREE!</h2>
+							
+							<div>
+								<h5>High Line</h5>
+								<span>Today it’s an urbanite’s playground planted with wildflowers and grasses, offering walkers some of the best views in NYC, and that makes the park simultaneously removed from the city and an inextricable part of it.</span>
+								
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/naturalhistory.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img height="300px" width="200px" src="images/naturalhistory.jpg" alt="" />
+							<h2 style = "font-size:15px;text-align:center;color:black"> Go to The Museum of Natural History!</h2>
+							<div>
+								<h5>The Museum of Natural History</h5>
+								<span>The American Museum of Natural History, located on the Upper West Side of Manhattan, New York City, is one of the largest museums in the world.</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/br.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img height="300px" width="200px" src="images/br.jpg" alt="" />
+							<h2 style ="font-size:15px;text-align:center;color:black"> Go to the Brooklyn Museum!</h2>
+							<div>
+								<h5> Brooklyn Museum </h5>
+									
+								<span> At the Brooklyn Museum you can explore an extensive and comprehensive permanent collection that includes ancient Egyptian masterpieces, African art, European painting, decorative arts, period rooms, and contemporary art.</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/aq.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img height="300px" width="200px" src="images/aq.jpg" alt="" />
+							<h2 style = "font-size:15px;text-align:center;color:black"> Go to the New York Aquarium!</h2>
+							<div>
+								<h5>New York Aquarium</h5>
+								<span>The New York Aquarium is the oldest continually operating aquarium in the United States, having opened in Castle Garden in Battery Park, Manhattan in 1896.</span>
+							</div>
+						</a>
+					</li>
+					<li>	
+						<a href="images/hs.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img height="300px" width="200px" src="images/hs.jpg" alt="" />
+							<h2 style = "font-size:15px;text-align:center;color:black"> Go to the New York Hall of Science!</h2>
+							<div>
+								<h5>New York Hall of Science</h5>
+								<span>The New York Hall of Science, also known as NYSCI, is a science museum located in Flushing Meadows-Corona Park in the New York City borough of Queens.</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/cp.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img height="300px" width="200px" src="images/cp.jpg" alt="" align="middle"/>
+							<h2 style = "font-size:15px;text-align:center;color:black"> Go to Corona Park!</h2>
+							<div>
+								<h5>Corona Park</h5>
+								<span> The largest park in Queens, it offers plenty of space for whatever your recreational desires may be baseball, soccer, tennis, cricket, et cetera. Lots more too, including a stunning recreation complex, a zoo, an art museum, a botanical garden, a science museum, and a baseball stadium.</span>
+							</div>
+						</a>
+					</li>
+							
+					<li>
+						<a href="images/sh.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox" align="right">
+							<img height="300px" width="200px" src="images/sh.jpg" alt=""  align="right" />
+							<h2 style = "font-size:15px;text-align:center;color:black"> Go to the Sagamore Hill!</h2>
+							<div>
+								<h5>Sagamore Hill</h5>
+								<span>Sagamore Hill was the home of the 26th President of the United States, Theodore Roosevelt, from 1885 until his death in 1919.</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/lb.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img height="300px" width="200px" src="images/lb.jpg" alt=""  align="middle" />
+							<h2 style = "font-size:15px;text-align:center;color:black;"> Go to Long Beach!</h2>
+							<div>
+								<h5>Long Beach</h5>
+								<span>Long Beach is a very special place, known for its white sandy beaches and its iconic boardwalk which was rebuilt after Superstorm Sandy.  The Beach is not all we have to offer. The Long Beach community possesses a wide variety of cultural and recreational activities for our residents and visitors to enjoy. </span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/bg.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img height="300px" width="200px" src="images/bg.jpg" alt=""/>
+							<h2 style = "font-size:15px;text-align:center;color:black"> Go to the New York Botanical Garden!</h2>
+							<div>
+								<h5>The New York Botanical Garden </h5>
+								<span>The New York Botanical Garden is a botanical garden and National Historic Landmark located in the Bronx, New York City. The 250-acre site's verdant landscape supports over one million living plants in extensive collections.</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/w.jpg" rel="title" class="b-link-stripe b-animate-go thickbox">
+							<img height="300px" width="200px" src="images/w.jpg" alt=""  align="left" />
+							<h2 style = "font-size:15px;text-align:center;color:black"> Go to Wave Hill!</h2>
+							<div>
+								<h5>Wave Hills</h5>
+								<span>Wave Hill is a 28 acres estate in the Hudson Hill section of Riverdale, Bronx, in New York City.</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/roc.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img height="300px" width="200px" src="images/ro.jpg" alt=""  align="middle" />
+							<h2 style = "font-size:15px;text-align:center;color:black"> Go to Roosevelt Island!</h2>
+							<div>
+								<h5>Roosevelt Island</h5>
+								<span>Roosevelt Island may be one of the only spots in New York City that’s a joy to get to via public transportation. The area's attractions include tennis courts, ball fields and Franklin D. Roosevelt Four Freedoms Park, a tribute to our 32nd President, located on the island's southern tip.</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/s.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img height="300px" width="200px" src="images/s.jpg" alt=""/>
+							<h2 style = "font-size:15px;text-align:center;color:black"> Go to the Staten Island Zoo!</h2>
+							<div>
+								<h5>Staten Island Zoo</h5>
+								<span>The Staten Island Zoo is an 8-acre suburban zoo in West New Brighton, Staten Island, New York City.</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/sf.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img height="300px" width="200px" src="images/sf.jpg" alt=""  align="left" />
+							<h2 style = "font-size:15px;text-align:center;color:black"> Go to Staten Island Ferry!</h2>
+							<div>
+								<h5>Staten Island Ferry </h5>
+								<span>It runs 5 miles in New York Harbor between the New York City boroughs of Manhattan and Staten Island. The ferry operates 24/7 and gives you a view of the Statue of Liberty. </span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/roc.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img height="300px" width="200px" src="images/roc.jpg" alt=""  align="middle" />
+							<h2 style = "font-size:15px;text-align:center;color:black"> Go to the Rockefeller Center!</h2>
+							<div>
+								<h5>Rockefeller Center</h5>
+								<span>You’ll find plenty of iconic New York sites in this multiblock complex: The ground level alone is home to the tourist-packed ice-skating rink, the bronze Atlas statue and the Today show plaza. </span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/ac.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img height="300px" width="200px" src="images/ac.jpg" alt=""  align="right" />
+							<h2 style = "font-size:15px;text-align:center;color:black"> Go to the Rockefeller Center Pubic Art!</h2>
+							<div>
+								<h5>Rockefeller Center Public Art</h5>
+								<span>Rockefeller Center is home to a remarkable collection of art deco motifs and sculptures signifying man’s development in spirit, science, industry and more. Learn all about the Center’s most famous artworks—and how Rockefeller’s vision was ultimately realized.</span>
+							</div>
+						</a>
+					</li>
+					<div class="clearfix"> </div>
+				</ul>
+			</section>
+			</div>
+				
+		<script type="text/javascript">
+			$(function() {
+			
+				$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+
+			});
+		</script>
+        </div>			
+	</div>
+	<!--gallery-end-->
+	<!--footer-starts-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-text">
+			</div>
+		</div>
+	</div>
+	<!--footer-end-->
+	<h3>Map of New York Events</h3>
+    <div id="map" ></div>
+    <script type="text/javascript">
+    var locations = [
+		['Highline',40.7480, -74.0048, 4],
+		['Museum of Natural History', 40.7813,-73.9740, 5],
+		['Brooklyn Museum', 40.6716, -73.9627, 3],
+		['New York Aquarium', 40.5744, -73.9752, 2],
+		['New York Hall of Science', 40.7480, -73.8526, 1],
+		['Corona Park', 40.7397, -73.8408, 6],
+		['Sagamore Hill', 40.8855, -73.5010, 7],
+		['Long Beach', 40.5884, -73.6579, 8],
+		['New York Botanical', 40.8617, -73.8803, 9],
+		['Wave Hill', 40.8990, -73.9124, 10],
+		['Staten Island Ferry', 40.7010, -74.0131, 11],
+		['Staten Island Zoo', 40.6251, -74.1154, 12],
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 10,
+      center: new google.maps.LatLng(40.7128, -74.0059),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+		  map.setZoom(25);
+          map.panTo(curmarker.position);
+		  mapTypeId: 'hybrid'
+        }
+      })(marker, i));
+    }
+    </script>
+	
+</body>
+</html>
